@@ -1,0 +1,5 @@
+/* Petit Comité webfonts — the live site serves these four Google families
+   (self-hosted by Elementor). Loaded here from the Google Fonts CDN.
+   Cormorant = display serif · Oswald = eyebrow/kicker · Poppins = UI + body
+   Kalam = handwritten accent (used only on nav sub-menu items on the live site). */
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Kalam:wght@300;400;700&display=swap");

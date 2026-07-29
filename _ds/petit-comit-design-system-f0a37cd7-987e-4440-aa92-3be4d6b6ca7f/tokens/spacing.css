@@ -1,0 +1,30 @@
+:root{
+  /* ---- Scale used by the kit (Elementor widget + section rhythm) ---- */
+  --space-1:5px;
+  --space-2:10px;
+  --space-3:15px;
+  --space-4:18px;
+  --space-5:20px;   /* default widget gap */
+  --space-6:30px;
+  --space-7:35px;
+  --space-8:50px;   /* photo-card inner padding */
+  --space-9:100px;  /* vertical rhythm between page sections */
+
+  /* ---- Layout ---- */
+  --container:1140px;       /* Elementor boxed container */
+  --container-narrow:837px; /* intro / amber wash panel */
+  --header-height:100px;
+  --hero-min-height:787px;
+  --band-min-height:500px;
+  --card-min-height:385px;
+  --amber-card-min-height:280px;
+
+  /* ---- Controls ---- */
+  --btn-padding:11px 45px 12px;
+  --btn-padding-ghost:10px 45px 11px;
+  --btn-padding-outline:8px 17px;
+  --nav-item-padding:0 15px;
+  --nav-item-gap:10px;
+  --fab-size:44px;
+  --fab-offset:25px;
+}

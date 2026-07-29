@@ -1,0 +1,40 @@
+:root{
+  /* ---- Families ---- */
+  --font-display:"Cormorant",Georgia,"Times New Roman",serif;
+  --font-eyebrow:"Oswald",Impact,sans-serif;
+  --font-body:"Poppins",Helvetica,Arial,sans-serif;
+  --font-accent:"Kalam",cursive;
+
+  /* ---- Sizes (verbatim from the kit) ---- */
+  --fs-hero:75px;        /* Cormorant 600, line-height 1em — slider title */
+  --fs-display:42px;     /* Cormorant 700 — section titles + amber card title */
+  --fs-title:35px;       /* Cormorant 700, line-height .9em — photo card titles */
+  --fs-eyebrow-lg:29px;  /* Oswald 500, +1.3px */
+  --fs-eyebrow:23px;     /* Oswald 500, +1.3px */
+  --fs-lead:21px;        /* Poppins 300 */
+  --fs-nav:17px;         /* Poppins 400, uppercase, +0.7px, line-height 13px */
+  --fs-body:16px;        /* Poppins 400 */
+  --fs-body-sm:14px;     /* Poppins 400 — buttons, card copy, sub-menu */
+  --fs-quote:13px;       /* Poppins 300 italic, +0.2px */
+  --fs-footer:11px;      /* Poppins 300, +0.4px */
+
+  /* ---- Weights ---- */
+  --fw-light:300; /* @kind font */
+  --fw-regular:400; /* @kind font */
+  --fw-medium:500; /* @kind font */
+  --fw-semibold:600; /* @kind font */
+  --fw-bold:700; /* @kind font */
+
+  /* ---- Line heights ---- */
+  --lh-hero:1em;
+  --lh-title:.9em;
+  --lh-body:1.5em;
+  --lh-nav:13px;
+
+  /* ---- Tracking ---- */
+  --ls-eyebrow:1.3px;
+  --ls-nav:.7px;
+  --ls-accent:.6px;
+  --ls-footer:.4px;
+  --ls-quote:.2px;
+}

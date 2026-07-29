@@ -1,0 +1,27 @@
+:root{
+  /* ---- Motion. Elementor defaults: 0.3s for colour, 0.6s for image/overlay
+     reveals, 0.2s for outline buttons, ease-in-out throughout. No bounce,
+     no spring, no transform-based hovers except image zoom. ---- */
+  --dur-fast:.2s; /* @kind other */
+  --dur-base:.3s; /* @kind other */
+  --dur-slow:.4s; /* @kind other */
+  --dur-slowest:.6s; /* @kind other */
+  --ease:ease-in-out; /* @kind other */
+  --ease-default:ease; /* @kind other */
+  --transition-color:color var(--dur-base) var(--ease),background-color var(--dur-base) var(--ease); /* @kind other */
+  --transition-overlay:background-color var(--dur-slowest) var(--ease),opacity var(--dur-slowest) var(--ease); /* @kind other */
+  --transition-image:transform var(--dur-slowest) var(--ease-default); /* @kind other */
+
+  /* Background photos zoom in slowly on card hover (wpr-bg-anim-zoom-in) */
+  --image-zoom:scale(1.08); /* @kind other */
+
+  /* ---- Shadows. The kit uses NO drop shadows: separation comes from dark
+     photographic overlays and flat colour bands. These two exist only for
+     the fixed floating controls, which sit above photography. ---- */
+  --shadow-none:none;
+  --shadow-fab:0 2px 8px rgba(0,0,0,.30);
+  --shadow-header:0 1px 0 rgba(0,0,0,.15);
+
+  /* Protection gradient for text laid directly on a photo without a band */
+  --scrim-bottom:linear-gradient(to top,rgba(35,34,34,.75),rgba(35,34,34,0)); /* @kind other */
+}

@@ -1,0 +1,19 @@
+:root{
+  /* The kit is almost entirely square. Only two things round: the dark
+     testimonial card (10px) and circular dots / FABs. */
+  --radius-none:0px;
+  --radius-btn:2px;
+  --radius-inner:5px;
+  --radius-card:10px;
+  --radius-round:50%;
+
+  --border-hairline:1px;      /* amber reveal frame on photo cards */
+  --border-thick:2px;         /* white outline button on the amber card */
+  --border-divider:3px;       /* the amber rule under section titles */
+  --divider-width:8%; /* @kind other */         /* the rule is 8% of its container, centred */
+
+  --border-amber:1px solid var(--pc-amber-500); /* @kind other */
+  --border-white-soft:1px solid rgba(255,255,255,.8); /* @kind other */
+  --border-white-strong:2px solid rgba(255,255,255,.93); /* @kind other */
+  --border-submenu:1px solid #e8e8e8; /* @kind other */
+}

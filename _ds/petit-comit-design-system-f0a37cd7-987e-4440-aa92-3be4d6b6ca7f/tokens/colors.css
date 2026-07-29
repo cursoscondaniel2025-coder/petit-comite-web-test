@@ -1,0 +1,50 @@
+:root{
+  /* ---- Base palette (exact values from the live Elementor kit) ---- */
+  --pc-amber-500:#ED8C00;      /* Elementor global "primary" + "accent" */
+  --pc-amber-400:#EB8C20;      /* second amber, used for hover accents */
+  --pc-charcoal-600:#42464B;   /* Elementor global "secondary": header, bands */
+  --pc-charcoal-900:#232222;   /* footer */
+  --pc-ink-950:#050505;        /* headings over light backgrounds */
+  --pc-panel-800:#2F2F2F;      /* testimonial card body */
+  --pc-warm-grey-600:#52524B;  /* photo-card overlay base */
+  --pc-grey-550:#5B5B5B;       /* full-bleed band overlay base */
+  --pc-grey-500:#7A7A7A;       /* Elementor global "text" */
+  --pc-grey-300:#D1D1D1;       /* carousel dots */
+  --pc-grey-250:#d8d8d8;       /* empty star */
+  --pc-grey-200:#EDEDED;       /* sub-menu hover */
+  --pc-grey-100:#F8F8F8;       /* sub-menu surface */
+  --pc-grey-ink:#3A3A3A;       /* sub-menu text */
+  --pc-white:#FFFDFD;          /* Elementor global white (very slightly warm) */
+  --pc-white-pure:#FFFFFF;
+  --pc-whatsapp:#49E670;       /* floating WhatsApp channel */
+
+  /* ---- Semantic aliases ---- */
+  --text-body:var(--pc-grey-500);
+  --text-heading:var(--pc-ink-950);
+  --text-on-dark:var(--pc-white);
+  --text-eyebrow:var(--pc-amber-500);
+  --text-muted-on-dark:#c1c1c1;
+  --text-link:var(--pc-amber-500);
+  --text-link-hover:var(--pc-white);
+
+  --surface-page:var(--pc-white-pure);
+  --surface-header:var(--pc-charcoal-600);
+  --surface-footer:var(--pc-charcoal-900);
+  --surface-band:var(--pc-charcoal-600);
+  --surface-card-dark:rgba(47,47,47,.62);   /* #2F2F2F9E */
+  --surface-submenu:var(--pc-grey-100);
+  --surface-submenu-hover:var(--pc-grey-200);
+
+  --accent:var(--pc-amber-500);
+  --accent-ink:var(--pc-white-pure);
+  --divider:var(--pc-amber-500);
+
+  /* ---- Photographic overlays (always over warm imagery) ---- */
+  --overlay-hero:rgba(66,70,75,.28);        /* #42464B47 — slider items */
+  --overlay-photo-card:rgba(82,82,75,.51);  /* #52524B82 — promo boxes at rest */
+  --overlay-photo-card-hover:rgba(82,82,75,0);
+  --overlay-band:rgba(91,91,91,.70);        /* #5B5B5BB3 @ .76 opacity */
+  --overlay-amber:rgba(237,140,0,.90);      /* #ED8C00E6 — "Reserva" card */
+  --overlay-amber-hover:rgba(66,70,75,.72); /* #42464BB8 */
+  --overlay-amber-wash:.39; /* @kind other */                 /* opacity of amber wash panels */
+}
